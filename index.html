@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Matemático</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="game-container">
+        <h1>Jogo Matemático</h1>
+        <div id="problem">Problema: </div>
+        <div id="choices"></div>
+        <div id="score">Pontos: 0</div>
+        <p>Erros: <span id="mistakes">0</span> de 3</p>
+        <div id="time">Tempo: 60s</div>
+        <br>
+        <br>
+        <!-- Quadrante de finalização, oculto inicialmente -->
+        <div id="game-over" class="hidden">
+            <h2>Jogo Finalizado!</h2>
+            <p>Você alcançou um total de <span id="final-score">0</span> pontos.</p>
+            <p id="final-message"></p> <!-- Nova mensagem cômica -->
+            <button id="restart">Jogar Novamente</button>
+        </div>
+    </div>
+    
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
